@@ -2,4 +2,5 @@
 import streamlit as st
 
 st.write("Test")
-st.radio("MENU",["Home","Contact","Projects"])
+with st.sidebar:
+  st.radio("MENU",["Home","Contact","Projects"])
